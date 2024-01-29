@@ -1,0 +1,69 @@
+.inp{
+    width: 340px;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 10px;
+    border: none;
+    border-bottom:1px solid rgb(169, 164, 164); ;
+}
+.inp-search{
+    width: 300px;
+    padding: 6px;
+    border-radius: 3px;
+    margin: 15px;
+    border:1px solid rgb(169, 164, 164); ;
+}
+::placeholder{
+    color: rgb(169, 164, 164);
+    font-size: 12px;
+}
+.customer-form{
+    width: 30%;
+    background-color:white;
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.sbtn{
+   width: 150px;
+}
+.lbtn{
+    width: 90%;
+}
+.form-header{
+    padding-left: 10px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 999; /* Higher z-index than other elements */
+    pointer-events: none; /* Allow clicks to pass through to elements below */
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .color-delete:hover{
+    color: red;
+  }
+  .color-edit:hover{
+    color: rgba(8, 208, 8, 0.741);
+  }
+  .red{
+    color: red;
+  }
+  .alert{
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  .alert-msg{
+    font-size: 12px;
+  }
+  .alert-width{
+    width: 300px;
+    margin: auto;
+  }
